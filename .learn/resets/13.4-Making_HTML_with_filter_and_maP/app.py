@@ -9,7 +9,4 @@ all_colors = [
 ]
 
 # Your code here
-filter_colors = list(filter(lambda x: x['sexy'],all_colors))
-generate_li = list(map(lambda x: f"<li>{x['label']}</li>",filter_colors))
 
-print(generate_li)

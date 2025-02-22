@@ -11,6 +11,4 @@ tasks = [
 
 
 # Your code here
-done_tasks = list(filter(lambda x: x if x["done"] else None,tasks))
 
-print(done_tasks)
